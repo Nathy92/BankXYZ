@@ -8,6 +8,7 @@ public class CustomerLoginTest extends BaseClass {
 	  
 	  	final String amount =  "1500";
 	  	
+	  	//TODO
 		getApp().getPages().getCustLoginPage().clickLoginButton();
 		Thread.sleep(2000);
 		getApp().getPages().getCustLoginPage().selectCustomerDrop();
