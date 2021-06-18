@@ -1,14 +1,12 @@
 package org.malitcode.test;
 
 import java.util.concurrent.TimeUnit;
-
-import org.malitcode.elements.CustomerLoginElements;
 import org.malitcode.lib.AppLib;
-import org.malitcode.pages.CustomerLoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
 
 
 public class BaseClass {
@@ -16,7 +14,7 @@ public class BaseClass {
 	WebDriver driver;
 	private AppLib app;
 	
-	 @BeforeTest
+	 @BeforeMethod
 	  public void setUp() throws Exception {
 		 System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32_2\\chromedriver.exe");
 		  driver = new ChromeDriver();  
@@ -27,7 +25,7 @@ public class BaseClass {
 		  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	  }
 	  
-	  @AfterTest
+	  @AfterMethod
 	  public void tearDown() {
 		  getApp().getFlow().close();
 	  }

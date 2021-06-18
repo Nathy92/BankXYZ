@@ -6,7 +6,7 @@ public class CustomerLoginTest extends BaseClass {
   @Test
   public void loginCustomer() throws InterruptedException {
 	  
-	  	final String amount =  "1500";
+	  	final String amount ="1500";
 	  	
 	  	//TODO
 		getApp().getPages().getCustLoginPage().clickLoginButton();
