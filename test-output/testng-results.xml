@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Manager Login successfully executed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-06-18T23:21:41 SAST" name="Default suite" finished-at="2021-06-18T23:21:56 SAST" duration-ms="15184">
+  <suite started-at="2021-06-19T18:11:45 SAST" name="Default suite" finished-at="2021-06-19T18:11:59 SAST" duration-ms="13746">
     <groups>
     </groups>
-    <test started-at="2021-06-18T23:21:41 SAST" name="Default test" finished-at="2021-06-18T23:21:56 SAST" duration-ms="15184">
+    <test started-at="2021-06-19T18:11:45 SAST" name="Default test" finished-at="2021-06-19T18:11:59 SAST" duration-ms="13746">
       <class name="org.malitcode.test.ManagerLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.malitcode.test.ManagerLoginTest@524d6d96]" started-at="2021-06-18T23:21:41 SAST" name="setUp" finished-at="2021-06-18T23:21:49 SAST" duration-ms="7855" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.malitcode.test.ManagerLoginTest@366647c2]" started-at="2021-06-19T18:11:45 SAST" name="setUp" finished-at="2021-06-19T18:11:51 SAST" duration-ms="6468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginManager()[pri:0, instance:org.malitcode.test.ManagerLoginTest@524d6d96]" started-at="2021-06-18T23:21:49 SAST" name="loginManager" finished-at="2021-06-18T23:21:56 SAST" duration-ms="7104" status="PASS">
+        <test-method signature="loginManager()[pri:0, instance:org.malitcode.test.ManagerLoginTest@366647c2]" started-at="2021-06-19T18:11:51 SAST" name="loginManager" finished-at="2021-06-19T18:11:59 SAST" duration-ms="7067" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Manager Login successfully executed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginManager -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.malitcode.test.ManagerLoginTest@524d6d96]" started-at="2021-06-18T23:21:56 SAST" name="tearDown" finished-at="2021-06-18T23:21:56 SAST" duration-ms="122" status="FAIL">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.malitcode.test.ManagerLoginTest@366647c2]" started-at="2021-06-19T18:11:59 SAST" name="tearDown" finished-at="2021-06-19T18:11:59 SAST" duration-ms="77" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : Customer added successfully with customer id :6}
@@ -23,8 +29,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RE6L4UB', ip: '192.168.43.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\WORKSP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 47a215cbbfb1ff18e82209b941c53fc1]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\WORKSP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23660830b92647acd9040c51761f38d0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
@@ -32,8 +38,8 @@ Session ID: 47a215cbbfb1ff18e82209b941c53fc1]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RE6L4UB', ip: '192.168.43.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\WORKSP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 47a215cbbfb1ff18e82209b941c53fc1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\WORKSP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23660830b92647acd9040c51761f38d0
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -41,7 +47,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
 at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at org.malitcode.test.BaseClass.tearDown(BaseClass.java:30)
+at org.malitcode.test.BaseClass.tearDown(BaseClass.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
