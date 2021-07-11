@@ -3,7 +3,7 @@ package org.malitcode.test;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.ExtentReports;
+
 
 public class ManagerLoginTest extends BaseClass {
 	
@@ -23,8 +23,15 @@ public class ManagerLoginTest extends BaseClass {
 	  getApp().getPages().getManagerLoginPage().sendCode(code);
 	  Thread.sleep(2000);
 	  getApp().getPages().getManagerLoginPage().clickLastAddCustomerButton();
-	  
+	  Thread.sleep(5000);
+	  getApp().getPages().getManagerLoginPage().clickAlertButton();
+	  Thread.sleep(5000);
+	  getApp().getPages().getManagerLoginPage().clickShowCustomerButton();
+	  Thread.sleep(5000);
+	 
+	 
 	  Reporter.log("Manager Login successfully executed");
+
 	    
   }
   

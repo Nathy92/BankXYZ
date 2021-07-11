@@ -15,6 +15,8 @@ public class BankManagerLoginElements {
 	@FindBy(xpath="//input[@ng-model='lName']") public WebElement lastNameTxt;
 	@FindBy(xpath="//input[@ng-model='postCd']") public WebElement postCodeTxt;
 	@FindBy(xpath="	//button[text()='Add Customer']") public WebElement lastAddCustomerBtn;
+	@FindBy(xpath="//button[@ng-click='showCust()']") public WebElement showCustomerBtn;
+	
 	
 	public BankManagerLoginElements(WebDriver driver) {
 		this.driver =  driver;

@@ -1,19 +1,24 @@
 package org.malitcode.test;
 
 import java.util.concurrent.TimeUnit;
+
 import org.malitcode.lib.AppLib;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
+
+import com.relevantcodes.extentreports.ExtentTest;
 
 public class BaseClass {
 	
 	WebDriver driver;
 	
 	private AppLib app;
+	
+	public static ExtentTest test;
 	
 	 @BeforeMethod
 	  public void setUp() throws Exception {

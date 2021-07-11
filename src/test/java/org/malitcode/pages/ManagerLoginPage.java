@@ -1,11 +1,14 @@
 package org.malitcode.pages;
 
 import org.malitcode.elements.BankManagerLoginElements;
+import org.malitcode.lib.AppLib;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 
 public class ManagerLoginPage {
 	WebDriver driver;
 	BankManagerLoginElements bankManPage;
+	
 	
 	public ManagerLoginPage(WebDriver driver) {
 		this.driver = driver;
@@ -34,6 +37,16 @@ public class ManagerLoginPage {
 	
 	public void clickLastAddCustomerButton() {
 		bankManPage.lastAddCustomerBtn.click();
+	}
+	
+	public void clickShowCustomerButton() {
+		bankManPage.showCustomerBtn.click();
+	}
+	
+	public void clickAlertButton() {
+		Alert a =  driver.switchTo().alert();
+		System.out.println(a.getText());
+		a.accept();
 	}
 
 }
