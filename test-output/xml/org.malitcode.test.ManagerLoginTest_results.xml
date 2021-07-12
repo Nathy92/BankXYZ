@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="11,711">
+           time="21,768">
   <properties />
   
   
-            <testcase name="loginManager" time="11,711" classname="org.malitcode.test.ManagerLoginTest" />
+            <testcase name="loginManager" time="21,768" classname="org.malitcode.test.ManagerLoginTest" />
       
 </testsuite>

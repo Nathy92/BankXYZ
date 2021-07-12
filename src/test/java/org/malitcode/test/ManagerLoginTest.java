@@ -3,6 +3,8 @@ package org.malitcode.test;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import junit.framework.Assert;
+
 
 
 public class ManagerLoginTest extends BaseClass {
@@ -10,10 +12,11 @@ public class ManagerLoginTest extends BaseClass {
   @Test
   public void loginManager() throws InterruptedException {
 	  
-	  String firstName = "Nkosinathi";
-	  String lastName = "Malala";
-	  String code = "CMP123";
+	   String firstName = "Nkosinathi";
+	   String lastName = "Malala";
+	   String code = "CMP123";
 	  
+	 
 	  getApp().getPages().getManagerLoginPage().clickManagerLoginButton();
 	  Thread.sleep(2000);
 	  getApp().getPages().getManagerLoginPage().clickFirstAddCustomerButton();
@@ -29,8 +32,8 @@ public class ManagerLoginTest extends BaseClass {
 	  getApp().getPages().getManagerLoginPage().clickShowCustomerButton();
 	  Thread.sleep(5000);
 	 
-	 
 	  Reporter.log("Manager Login successfully executed");
+	
 
 	    
   }

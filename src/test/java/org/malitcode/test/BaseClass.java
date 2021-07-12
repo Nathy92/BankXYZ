@@ -22,7 +22,7 @@ public class BaseClass {
 	
 	 @BeforeMethod
 	  public void setUp() throws Exception {
-		 System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32_2\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\workspace\\eclipse-workspace\\BankXYZ\\src\\test\\executables\\chromedriver.exe");
 		  driver = new ChromeDriver();  
 		  app = new AppLib(driver);
 		  
