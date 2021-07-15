@@ -1,2 +1,4 @@
 # BankXYZ
- Automation Projecst
+ Automation Project
+ 
+ HOW IT WORKS
