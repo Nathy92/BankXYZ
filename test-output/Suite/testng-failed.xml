@@ -15,6 +15,13 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- org.malitcode.test.CustomerLoginTest -->
+      <class name="org.malitcode.test.ManagerLoginTest">
+        <methods>
+          <include name="loginManager"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.malitcode.test.ManagerLoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,6 +1,10 @@
 package org.malitcode.test;
 
+import java.util.concurrent.TimeUnit;
+
 import org.testng.annotations.Test;
+
+import junit.framework.Assert;
 
 
 
@@ -12,22 +16,28 @@ public class CustomerLoginTest extends BaseClass {
   public void loginCustomer() throws InterruptedException {
 	  
 	  	final String amount ="1500";
-	 
+	  	log.debug("Inside Customer Test Case !");
 		getApp().getPages().getCustLoginPage().clickLoginButton();
-		Thread.sleep(2000);
+	
 		getApp().getPages().getCustLoginPage().selectCustomerDrop();
-		Thread.sleep(2000);
+	
 		getApp().getPages().getCustLoginPage().clickInsideLoginButton();
-		Thread.sleep(2000);
+	
 		
 		getApp().getPages().getCustLoginPage().clickDepositButton();
-		Thread.sleep(2000);
+	
 		getApp().getPages().getCustLoginPage().sendAmountKeys(amount);
-		Thread.sleep(2000);
+		
 		getApp().getPages().getCustLoginPage().clickInsideDepButton();
-		Thread.sleep(2000);
+		
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+		getApp().getPages().getCustLoginPage().verify();
+	
 		getApp().getPages().getCustLoginPage().clickLogoutButton();
-		Thread.sleep(2000);
+		
+		log.debug("Customer Test Case Successfully executed !");
+	
 	
 		
 		

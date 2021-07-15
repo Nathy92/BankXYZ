@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.malitcode.test.ManagerLoginTest">
+      <class name="org.malitcode.test.CustomerWithdrawalTest">
         <methods>
-          <include name="loginManager"/>
+          <include name="makeWidrawal"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- org.malitcode.test.ManagerLoginTest -->
+      </class> <!-- org.malitcode.test.CustomerWithdrawalTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

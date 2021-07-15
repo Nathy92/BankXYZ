@@ -49,6 +49,11 @@ public class CustomerLoginPage {
 		custLogElem.logoutBtn.click();
 	}
 	
+	public void verify() {
+		boolean isVisible = custLogElem.successMsg.isDisplayed();
+		System.out.println(isVisible);
+	}
+	
 	
 	
 

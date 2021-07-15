@@ -28,6 +28,11 @@ public class CustomerLoginElements {
 	
 	@FindBy(xpath="//button[@ng-click='byebye()']") public WebElement logoutBtn;
 	
+	@FindBy(xpath="//span[@ng-show='message']") public WebElement successMsg;
+	
+	
+	
+	
 	//This constructor for init
 	public CustomerLoginElements(WebDriver driver) {
 		this.driver =  driver;

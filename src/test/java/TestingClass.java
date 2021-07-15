@@ -1,16 +1,6 @@
-import java.net.InetAddress;
-import java.net.UnknownHostException;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 public class TestingClass {
 	
-	public static void main(String[] args) throws UnknownHostException {
 //		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32_2\\chromedriver.exe");
 //		WebDriver driver = new ChromeDriver();
 //		
@@ -25,11 +15,13 @@ public class TestingClass {
 //		dropdown.selectByIndex(1);
 //		System.out.println(dropdown.getFirstSelectedOption().getText());
 //		
-//		driver.close();
-		MonitoringMail mail =  new MonitoringMail();
-		System.out.println(	InetAddress.getLocalHost().getHostAddress());
-		//192.168.43.47
-	
+////		driver.close();
+//		MonitoringMail mail =  new MonitoringMail();
+//		String messageBody =  "http://" + InetAddress.getLocalHost().getHostAddress() + ":8080/file:/C:/Users/workspace/eclipse-workspace/BankXYZ/test-output/html/";
+//	
+//		mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject,  messageBody);
+//		//192.168.43.47
+//	
 	}
 
-}
+
