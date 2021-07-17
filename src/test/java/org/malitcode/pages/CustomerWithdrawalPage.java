@@ -32,10 +32,9 @@ public class CustomerWithdrawalPage {
 	}
 	
 	public boolean verifyTransaction() {
+		
 		boolean isVisible = custWidthdrawalElem.successMsg.isDisplayed();
-		
 		System.out.println(isVisible);
-		
 		return isVisible;
 	}
 

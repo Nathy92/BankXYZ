@@ -1,6 +1,7 @@
+import org.testng.log4testng.Logger;
 
 public class TestingClass {
-	
+	  
 //		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32_2\\chromedriver.exe");
 //		WebDriver driver = new ChromeDriver();
 //		
@@ -22,6 +23,9 @@ public class TestingClass {
 //		mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject,  messageBody);
 //		//192.168.43.47
 //	
+	
+			   
+	   
 	}
 
 

@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-15T13:45:21 SAST" name="Suite" finished-at="2021-07-15T13:45:51 SAST" duration-ms="30042">
+  <suite started-at="2021-07-17T11:08:41 SAST" name="Suite" finished-at="2021-07-17T11:09:13 SAST" duration-ms="31886">
     <groups>
     </groups>
-    <test started-at="2021-07-15T13:45:21 SAST" name="Test" finished-at="2021-07-15T13:45:51 SAST" duration-ms="30042">
+    <test started-at="2021-07-17T11:08:41 SAST" name="Test" finished-at="2021-07-17T11:09:13 SAST" duration-ms="31886">
       <class name="org.malitcode.test.CustomerWithdrawalTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.malitcode.test.CustomerWithdrawalTest@4ddbbdf8]" started-at="2021-07-15T13:45:41 SAST" name="setUp" finished-at="2021-07-15T13:45:47 SAST" duration-ms="6302" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.malitcode.test.CustomerWithdrawalTest@20c0a64d]" started-at="2021-07-17T11:09:02 SAST" name="setUp" finished-at="2021-07-17T11:09:09 SAST" duration-ms="6975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="makeWidrawal()[pri:0, instance:org.malitcode.test.CustomerWithdrawalTest@4ddbbdf8]" started-at="2021-07-15T13:45:47 SAST" name="makeWidrawal" finished-at="2021-07-15T13:45:51 SAST" duration-ms="3130" status="PASS">
+        <test-method signature="makeWidrawal()[pri:0, instance:org.malitcode.test.CustomerWithdrawalTest@20c0a64d]" started-at="2021-07-17T11:09:09 SAST" name="makeWidrawal" finished-at="2021-07-17T11:09:13 SAST" duration-ms="3797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- makeWidrawal -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.malitcode.test.CustomerWithdrawalTest@4ddbbdf8]" started-at="2021-07-15T13:45:51 SAST" name="tearDown" finished-at="2021-07-15T13:45:51 SAST" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.malitcode.test.CustomerWithdrawalTest@20c0a64d]" started-at="2021-07-17T11:09:13 SAST" name="tearDown" finished-at="2021-07-17T11:09:13 SAST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.malitcode.test.CustomerWithdrawalTest -->
       <class name="org.malitcode.test.CustomerLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.malitcode.test.CustomerLoginTest@455b6df1]" started-at="2021-07-15T13:45:31 SAST" name="setUp" finished-at="2021-07-15T13:45:38 SAST" duration-ms="6242" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.malitcode.test.CustomerLoginTest@5454d35e]" started-at="2021-07-17T11:08:53 SAST" name="setUp" finished-at="2021-07-17T11:08:59 SAST" duration-ms="6249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginCustomer()[pri:0, instance:org.malitcode.test.CustomerLoginTest@455b6df1]" started-at="2021-07-15T13:45:38 SAST" name="loginCustomer" finished-at="2021-07-15T13:45:41 SAST" duration-ms="3203" status="PASS">
+        <test-method signature="loginCustomer()[pri:0, instance:org.malitcode.test.CustomerLoginTest@5454d35e]" started-at="2021-07-17T11:08:59 SAST" name="loginCustomer" finished-at="2021-07-17T11:09:02 SAST" duration-ms="2897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.malitcode.test.CustomerLoginTest@455b6df1]" started-at="2021-07-15T13:45:41 SAST" name="tearDown" finished-at="2021-07-15T13:45:41 SAST" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.malitcode.test.CustomerLoginTest@5454d35e]" started-at="2021-07-17T11:09:02 SAST" name="tearDown" finished-at="2021-07-17T11:09:02 SAST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- org.malitcode.test.CustomerLoginTest -->
       <class name="org.malitcode.test.ManagerLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.malitcode.test.ManagerLoginTest@20c0a64d]" started-at="2021-07-15T13:45:21 SAST" name="setUp" finished-at="2021-07-15T13:45:28 SAST" duration-ms="7533" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.malitcode.test.ManagerLoginTest@768fc0f2]" started-at="2021-07-17T11:08:42 SAST" name="setUp" finished-at="2021-07-17T11:08:49 SAST" duration-ms="7646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginManager()[pri:0, instance:org.malitcode.test.ManagerLoginTest@20c0a64d]" started-at="2021-07-15T13:45:28 SAST" name="loginManager" finished-at="2021-07-15T13:45:31 SAST" duration-ms="2713" status="PASS">
+        <test-method signature="loginManager()[pri:0, instance:org.malitcode.test.ManagerLoginTest@768fc0f2]" started-at="2021-07-17T11:08:49 SAST" name="loginManager" finished-at="2021-07-17T11:08:53 SAST" duration-ms="3318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginManager -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.malitcode.test.ManagerLoginTest@20c0a64d]" started-at="2021-07-15T13:45:31 SAST" name="tearDown" finished-at="2021-07-15T13:45:31 SAST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.malitcode.test.ManagerLoginTest@768fc0f2]" started-at="2021-07-17T11:08:53 SAST" name="tearDown" finished-at="2021-07-17T11:08:53 SAST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

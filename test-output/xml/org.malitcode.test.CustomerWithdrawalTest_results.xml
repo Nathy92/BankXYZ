@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3,130">
+           time="3,797">
   <properties />
   
   
-            <testcase name="makeWidrawal" time="3,130" classname="org.malitcode.test.CustomerWithdrawalTest" />
+            <testcase name="makeWidrawal" time="3,797" classname="org.malitcode.test.CustomerWithdrawalTest" />
       
 </testsuite>

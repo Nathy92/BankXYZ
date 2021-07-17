@@ -4,10 +4,16 @@
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-    <listener class-name="org.malitcode.listeners.CustomListeners"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="org.malitcode.test.CustomerWithdrawalTest">
+        <methods>
+          <include name="makeWidrawal"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.malitcode.test.CustomerWithdrawalTest -->
       <class name="org.malitcode.test.CustomerLoginTest">
         <methods>
           <include name="tearDown"/>

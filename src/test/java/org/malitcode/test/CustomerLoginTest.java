@@ -3,6 +3,7 @@ package org.malitcode.test;
 import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.Test;
+import org.testng.log4testng.Logger;
 
 import junit.framework.Assert;
 
@@ -11,10 +12,10 @@ import junit.framework.Assert;
 
 
 public class CustomerLoginTest extends BaseClass {
-	  
+
   @Test
   public void loginCustomer() throws InterruptedException {
-	  
+		
 	  	final String amount ="1500";
 	  	log.debug("Inside Customer Test Case !");
 	  	
