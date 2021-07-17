@@ -17,6 +17,7 @@ public class CustomerLoginTest extends BaseClass {
 	  
 	  	final String amount ="1500";
 	  	log.debug("Inside Customer Test Case !");
+	  	
 		getApp().getPages().getCustLoginPage().clickLoginButton();
 	
 		getApp().getPages().getCustLoginPage().selectCustomerDrop();
@@ -30,7 +31,7 @@ public class CustomerLoginTest extends BaseClass {
 		
 		getApp().getPages().getCustLoginPage().clickInsideDepButton();
 		
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		getApp().getPages().getCustLoginPage().verify();
 	

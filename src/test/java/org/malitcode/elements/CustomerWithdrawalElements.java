@@ -16,6 +16,8 @@ public class CustomerWithdrawalElements {
 		@FindBy(xpath="//button[text()='Withdraw']") public WebElement widrawalBtnFinal;
 		
 		@FindBy(xpath="//button[@ng-click='byebye()']") public WebElement logoutBtn;
+		
+		@FindBy(xpath="//span[text()='Transaction successful']") public WebElement successMsg;
 
 		//This constructor for init
 		public CustomerWithdrawalElements(WebDriver driver) {
