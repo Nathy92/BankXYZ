@@ -1,0 +1,4 @@
+10:16:28,407 DEBUG devpinoyLogger:29 - Chrome driver Launched !
+10:16:32,618 DEBUG devpinoyLogger:41 - Website Loaded !
+10:16:32,838 DEBUG devpinoyLogger:21 - Inside Manager Test !
+10:16:35,977 DEBUG devpinoyLogger:49 - Test execution completed !

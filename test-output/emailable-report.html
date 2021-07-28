@@ -8,13 +8,15 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">31 886</td><td></td><td></td></tr>
+<tr><th colspan="8">Bank XYZ Automation Test</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,556</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">org.malitcode.test.CustomerLoginTest</td><td><a href="#m0">loginCustomer</a></td><td rowspan="1">1626512939576</td><td rowspan="1">2897</td></tr><tr class="passedodd"><td rowspan="1">org.malitcode.test.CustomerWithdrawalTest</td><td><a href="#m1">makeWidrawal</a></td><td rowspan="1">1626512949763</td><td rowspan="1">3797</td></tr><tr class="passedeven"><td rowspan="1">org.malitcode.test.ManagerLoginTest</td><td><a href="#m2">loginManager</a></td><td rowspan="1">1626512929702</td><td rowspan="1">3318</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Bank XYZ Automation Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.malitcode.test.ManagerLoginTest</td><td><a href="#m0">loginManager</a></td><td rowspan="1">1627288314114</td><td rowspan="1">3013</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">org.malitcode.test.CustomerLoginTest#loginCustomer</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">org.malitcode.test.CustomerWithdrawalTest#makeWidrawal</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">org.malitcode.test.ManagerLoginTest#loginManager</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">org.malitcode.test.ManagerLoginTest#loginManager</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Capturing screenshot<br/>Customer Login successfully executed<br/><a target="_blank" href="C:\Users\workspace\Documents\screenshot\error.jpg">Screenshot</a><br/><br><br/><br><br/><a target="_blank" href="C:\Users\workspace\Documents\screenshot\error.jpg"><img src="C:\Users\workspace\Documents\screenshot\error.jpg" height=200 width=200></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">junit.framework.AssertionFailedError: Login Not Succesfful
+	at junit.framework.Assert.fail(Assert.java:47)
+	at org.malitcode.test.ManagerLoginTest.loginManager(ManagerLoginTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

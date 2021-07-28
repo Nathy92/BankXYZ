@@ -35,6 +35,7 @@ public class ManagerLoginTest extends BaseClass {
 	
 	  getApp().getPages().getManagerLoginPage().clickShowCustomerButton();
 	  
+	  Assert.fail("Login Not Succesfful");
 	 
 	  log.debug("Manager Test Case Successfully executed !");
 	

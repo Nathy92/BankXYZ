@@ -1,6 +1,6 @@
 package org.malitcode.lib;
 
-import org.malitcode.elements.CustomerLoginElements;
+
 import org.malitcode.pages.CustomerLoginPage;
 import org.malitcode.pages.CustomerWithdrawalPage;
 import org.malitcode.pages.ManagerLoginPage;

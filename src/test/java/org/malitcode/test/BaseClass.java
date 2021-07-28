@@ -34,6 +34,7 @@ public class BaseClass {
 			driver = new FirefoxDriver();
 			log.debug("FireFox driver Launched !");
 		}
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		app = new AppLib(driver);
 
 		getApp().getFlow().navigateToUrl("http://www.way2automation.com/angularjs-protractor/banking/#/login");

@@ -29,5 +29,6 @@ public class CustomerWithdrawalTest extends BaseClass{
 	  
 	  getApp().getPages().getCustomerWithdrawalPage().clickLogoutButton();
 	  
+	  log.debug("Customer Widthdrawal Test Finished !");
   }
 }
