@@ -1,6 +1,9 @@
 package org.malitcode.listeners;
 
+import java.io.IOException;
+
 import org.malitcode.test.BaseClass;
+import org.malitcode.utilities.TestUtil;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -8,7 +11,7 @@ import org.testng.Reporter;
 
 
 
-public class CustomListeners extends BaseClass implements ITestListener{
+public class CustomListeners extends BaseClass  implements ITestListener{
     
 	/*
 	public void onTestStart(ITestResult result) {
@@ -25,12 +28,17 @@ public class CustomListeners extends BaseClass implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		
 		System.setProperty("org.uncommons.reportng.escape-output","false");
-		Reporter.log("Capturing screenshot");
+		try {
+			TestUtil.captureScreenshot();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		Reporter.log("Customer Login successfully executed");
-		Reporter.log("<a target=\"_blank\" href=\"C:\\Users\\workspace\\Documents\\screenshot\\error.jpg\">Screenshot</a>");
+		Reporter.log("<a target=\"_blank\" href="+TestUtil.screenshotName+">Screenshot</a>");
 		Reporter.log("<br>");
 		Reporter.log("<br>");
-		Reporter.log("<a target=\"_blank\" href=\"C:\\Users\\workspace\\Documents\\screenshot\\error.jpg\"><img src=\"C:\\Users\\workspace\\Documents\\screenshot\\error.jpg\" height=200 width=200></img></a>");
+		Reporter.log("<a target=\"_blank\" href="+TestUtil.screenshotName+"><img src="+TestUtil.screenshotName+" height=200 width=200></img></a>");
 
 	}
 

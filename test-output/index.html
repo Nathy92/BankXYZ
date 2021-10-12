@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Bank_XYZ_Automation_Test">
-              <span class="suite-name border-failed">Bank XYZ Automation Test</span>
+              <span class="suite-name border-skipped">Bank XYZ Automation Test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Bank_XYZ_Automation_Test" class="hide-methods failed suite-Bank_XYZ_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-Bank_XYZ_Automation_Test -->
-                      <a href="#" panel-name="suite-Bank_XYZ_Automation_Test" class="show-methods failed suite-Bank_XYZ_Automation_Test"> (show)</a> <!-- show-methods failed suite-Bank_XYZ_Automation_Test -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Bank_XYZ_Automation_Test" class="hide-methods skipped suite-Bank_XYZ_Automation_Test"> (hide)</a> <!-- hide-methods skipped suite-Bank_XYZ_Automation_Test -->
+                      <a href="#" panel-name="suite-Bank_XYZ_Automation_Test" class="show-methods skipped suite-Bank_XYZ_Automation_Test"> (show)</a> <!-- show-methods skipped suite-Bank_XYZ_Automation_Test -->
                     </span>
-                    <div class="method-list-content failed suite-Bank_XYZ_Automation_Test">
+                    <div class="method-list-content skipped suite-Bank_XYZ_Automation_Test">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="skipped.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Bank_XYZ_Automation_Test" title="org.malitcode.test.ManagerLoginTest" hash-for-method="loginManager">loginManager</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Bank_XYZ_Automation_Test -->
+                    </div> <!-- method-list-content skipped suite-Bank_XYZ_Automation_Test -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Bank_XYZ_Automation_Test" class="panel Bank_XYZ_Automation_Test">
-          <div class="suite-Bank_XYZ_Automation_Test-class-failed">
+          <div class="suite-Bank_XYZ_Automation_Test-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">org.malitcode.test.ManagerLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,16 +128,66 @@
                   <a name="loginManager">
                   </a> <!-- loginManager -->
                   <span class="method-name">loginManager</span>
-                  <div class="stack-trace">junit.framework.AssertionFailedError: Login Not Succesfful
-	at junit.framework.Assert.fail(Assert.java:47)
-	at org.malitcode.test.ManagerLoginTest.loginManager(ManagerLoginTest.java:38)
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 90
+Current browser version is 94.0.4606.71 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-VB02Q6K&apos;, ip: &apos;192.168.43.47&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E2C013+2474003]
+	Ordinal0 [0x00DC29C1+2042305]
+	Ordinal0 [0x00CD2F68+1060712]
+	Ordinal0 [0x00CF188E+1185934]
+	Ordinal0 [0x00CED600+1168896]
+	Ordinal0 [0x00CEAA83+1157763]
+	Ordinal0 [0x00D1A2A2+1352354]
+	Ordinal0 [0x00D18FAA+1347498]
+	Ordinal0 [0x00D166DB+1337051]
+	Ordinal0 [0x00CF3427+1192999]
+	Ordinal0 [0x00CF42EE+1196782]
+	Ordinal0 [0x00CF4279+1196665]
+	GetHandleVerifier [0x00FB96FC+1590332]
+	GetHandleVerifier [0x01068614+2306900]
+	GetHandleVerifier [0x00EB9E93+543699]
+	GetHandleVerifier [0x00EB92CE+540686]
+	Ordinal0 [0x00DC86BA+2066106]
+	Ordinal0 [0x00DCD1C8+2085320]
+	Ordinal0 [0x00DCD308+2085640]
+	Ordinal0 [0x00DD67F3+2123763]
+	BaseThreadInitThunk [0x753C0419+25]
+	RtlGetAppContainerNamedObjectPath [0x77B772ED+237]
+	RtlGetAppContainerNamedObjectPath [0x77B772BD+189]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at org.malitcode.test.BaseClass.setUp(BaseClass.java:28)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 27 stack frames
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bank_XYZ_Automation_Test-class-failed -->
+          </div> <!-- suite-Bank_XYZ_Automation_Test-class-skipped -->
         </div> <!-- panel Bank_XYZ_Automation_Test -->
         <div panel-name="test-xml-Bank_XYZ_Automation_Test" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -200,12 +250,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginManager')
 data.setCell(0, 2, 'org.malitcode.test.ManagerLoginTest')
-data.setCell(0, 3, 3013);
+data.setCell(0, 3, 0);
 window.suiteTableData['Bank_XYZ_Automation_Test']= { tableData: data, tableDiv: 'times-div-Bank_XYZ_Automation_Test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Bank_XYZ_Automation_Test">
               </div> <!-- times-div-Bank_XYZ_Automation_Test -->
             </div> <!-- times-div -->
@@ -216,17 +266,6 @@ return data;
             <span class="header-content">Reporter output for Bank XYZ Automation Test</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">loginManager</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Capturing screenshot</span>
-                <span class="reporter-method-output">Customer Login successfully executed</span>
-                <span class="reporter-method-output"><a target="_blank" href="C:\Users\workspace\Documents\screenshot\error.jpg">Screenshot</a></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="_blank" href="C:\Users\workspace\Documents\screenshot\error.jpg"><img src="C:\Users\workspace\Documents\screenshot\error.jpg" height=200 width=200></img></a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Bank_XYZ_Automation_Test" class="panel">
@@ -244,18 +283,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">org.malitcode.test.ManagerLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">loginManager</span>
-                <span class="method-start">11909 ms</span>
+                <span class="method-start">3098 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14935 ms</span>
+                <span class="method-start">3118 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
